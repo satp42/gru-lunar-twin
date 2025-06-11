@@ -1,0 +1,87 @@
+[0.000000] (-) TimerEvent: {}
+[0.000680] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.001200] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.001392] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.001431] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.001447] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.001463] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.001477] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.001490] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.001518] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.001538] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.001552] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.001566] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.001698] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.001849] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.002014] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.002043] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.002061] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.002810] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.003077] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.003341] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.003423] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.003481] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.003532] (examples_rclpy_minimal_publisher) JobStarted: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.020987] (examples_rclpy_minimal_subscriber) JobStarted: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.100953] (-) TimerEvent: {}
+[0.206257] (-) TimerEvent: {}
+[0.308965] (-) TimerEvent: {}
+[0.413440] (-) TimerEvent: {}
+[0.444418] (examples_rclpy_minimal_subscriber) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/examples_rclpy_minimal_subscriber/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/examples_rclpy_minimal_subscriber', 'env': {'HOSTNAME': 'fca30b049d5d', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'PWD': '/workspace/build/examples_rclpy_minimal_subscriber', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/examples_rclpy_minimal_subscriber/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.446813] (examples_rclpy_minimal_publisher) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/workspace/build/examples_rclpy_minimal_publisher/build', '--no-deps', 'symlink_data'], 'cwd': '/workspace/build/examples_rclpy_minimal_publisher', 'env': {'HOSTNAME': 'fca30b049d5d', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'ROS_PYTHON_VERSION': '3', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'PWD': '/workspace/build/examples_rclpy_minimal_publisher', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/examples_rclpy_minimal_publisher/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1'}, 'shell': False}
+[0.532152] (-) TimerEvent: {}
+[0.586967] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'running develop\n'}
+[0.589721] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running develop\n'}
+[0.634145] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'running egg_info\n'}
+[0.635200] (-) TimerEvent: {}
+[0.635704] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'creating examples_rclpy_minimal_subscriber.egg-info\n'}
+[0.636075] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running egg_info\n'}
+[0.636310] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating examples_rclpy_minimal_publisher.egg-info\n'}
+[0.636527] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing examples_rclpy_minimal_publisher.egg-info/PKG-INFO\n'}
+[0.637295] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'writing examples_rclpy_minimal_subscriber.egg-info/PKG-INFO\n'}
+[0.638579] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing dependency_links to examples_rclpy_minimal_publisher.egg-info/dependency_links.txt\n'}
+[0.639191] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'writing dependency_links to examples_rclpy_minimal_subscriber.egg-info/dependency_links.txt\n'}
+[0.640295] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'writing entry points to examples_rclpy_minimal_subscriber.egg-info/entry_points.txt\n'}
+[0.640480] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing entry points to examples_rclpy_minimal_publisher.egg-info/entry_points.txt\n'}
+[0.640654] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing requirements to examples_rclpy_minimal_publisher.egg-info/requires.txt\n'}
+[0.640869] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'writing requirements to examples_rclpy_minimal_subscriber.egg-info/requires.txt\n'}
+[0.641122] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'writing top-level names to examples_rclpy_minimal_publisher.egg-info/top_level.txt\n'}
+[0.641293] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b"writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'\n"}
+[0.641388] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'writing top-level names to examples_rclpy_minimal_subscriber.egg-info/top_level.txt\n'}
+[0.641445] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b"writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'\n"}
+[0.641564] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b"reading manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'\n"}
+[0.641647] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b"reading manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'\n"}
+[0.641704] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b"writing manifest file 'examples_rclpy_minimal_subscriber.egg-info/SOURCES.txt'\n"}
+[0.641756] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b"writing manifest file 'examples_rclpy_minimal_publisher.egg-info/SOURCES.txt'\n"}
+[0.643309] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running build_ext\n'}
+[0.644124] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'running build_ext\n'}
+[0.644369] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'Creating /workspace/install/examples_rclpy_minimal_subscriber/lib/python3.10/site-packages/examples-rclpy-minimal-subscriber.egg-link (link to .)\n'}
+[0.644432] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Creating /workspace/install/examples_rclpy_minimal_publisher/lib/python3.10/site-packages/examples-rclpy-minimal-publisher.egg-link (link to .)\n'}
+[0.644492] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'Installing subscriber_lambda script to /workspace/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber\n'}
+[0.644708] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installing publisher_local_function script to /workspace/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher\n'}
+[0.644787] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'Installing subscriber_member_function script to /workspace/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber\n'}
+[0.644863] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installing publisher_member_function script to /workspace/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher\n'}
+[0.645174] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'Installing subscriber_old_school script to /workspace/install/examples_rclpy_minimal_subscriber/lib/examples_rclpy_minimal_subscriber\n'}
+[0.645465] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installing publisher_member_function_with_wait_for_all_acked script to /workspace/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher\n'}
+[0.645547] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installing publisher_old_school script to /workspace/install/examples_rclpy_minimal_publisher/lib/examples_rclpy_minimal_publisher\n'}
+[0.645604] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'\n'}
+[0.645653] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'Installed /workspace/build/examples_rclpy_minimal_publisher\n'}
+[0.645700] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'\n'}
+[0.645754] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'Installed /workspace/build/examples_rclpy_minimal_subscriber\n'}
+[0.645807] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'running symlink_data\n'}
+[0.645856] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'creating /workspace/install/examples_rclpy_minimal_subscriber/share/ament_index\n'}
+[0.645906] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'running symlink_data\n'}
+[0.645957] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'creating /workspace/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index\n'}
+[0.646006] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'creating /workspace/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages\n'}
+[0.646054] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'symbolically linking /workspace/build/examples_rclpy_minimal_subscriber/resource/examples_rclpy_minimal_subscriber -> /workspace/install/examples_rclpy_minimal_subscriber/share/ament_index/resource_index/packages\n'}
+[0.646103] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating /workspace/install/examples_rclpy_minimal_publisher/share/ament_index\n'}
+[0.646150] (examples_rclpy_minimal_subscriber) StdoutLine: {'line': b'symbolically linking /workspace/build/examples_rclpy_minimal_subscriber/package.xml -> /workspace/install/examples_rclpy_minimal_subscriber/share/examples_rclpy_minimal_subscriber\n'}
+[0.646200] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating /workspace/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index\n'}
+[0.646248] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'creating /workspace/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages\n'}
+[0.646299] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'symbolically linking /workspace/build/examples_rclpy_minimal_publisher/resource/examples_rclpy_minimal_publisher -> /workspace/install/examples_rclpy_minimal_publisher/share/ament_index/resource_index/packages\n'}
+[0.646385] (examples_rclpy_minimal_publisher) StdoutLine: {'line': b'symbolically linking /workspace/build/examples_rclpy_minimal_publisher/package.xml -> /workspace/install/examples_rclpy_minimal_publisher/share/examples_rclpy_minimal_publisher\n'}
+[0.670414] (examples_rclpy_minimal_subscriber) CommandEnded: {'returncode': 0}
+[0.682070] (examples_rclpy_minimal_subscriber) JobEnded: {'identifier': 'examples_rclpy_minimal_subscriber', 'rc': 0}
+[0.684820] (examples_rclpy_minimal_publisher) CommandEnded: {'returncode': 0}
+[0.692163] (examples_rclpy_minimal_publisher) JobEnded: {'identifier': 'examples_rclpy_minimal_publisher', 'rc': 0}
+[0.695390] (-) EventReactorShutdown: {}

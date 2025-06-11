@@ -1,0 +1,35 @@
+[0.032s] Invoking command in '/workspace/build/examples_rclcpp_minimal_action_server': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/src/examples/rclcpp/actions/minimal_action_server -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_minimal_action_server
+[0.519s] -- The C compiler identification is GNU 11.4.0
+[0.644s] -- The CXX compiler identification is GNU 11.4.0
+[0.661s] -- Detecting C compiler ABI info
+[0.804s] -- Detecting C compiler ABI info - done
+[0.819s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.819s] -- Detecting C compile features
+[0.819s] -- Detecting C compile features - done
+[0.821s] -- Detecting CXX compiler ABI info
+[0.959s] -- Detecting CXX compiler ABI info - done
+[0.959s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.960s] -- Detecting CXX compile features
+[0.960s] -- Detecting CXX compile features - done
+[0.961s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.079s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.186s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.252s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.252s]   By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this
+[1.253s]   project has asked CMake to find a package configuration file provided by
+[1.254s]   "example_interfaces", but CMake did not find one.
+[1.254s] 
+[1.254s]   Could not find a package configuration file provided by
+[1.255s]   "example_interfaces" with any of the following names:
+[1.256s] 
+[1.256s]     example_interfacesConfig.cmake
+[1.256s]     example_interfaces-config.cmake
+[1.256s] 
+[1.257s]   Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or
+[1.258s]   set "example_interfaces_DIR" to a directory containing one of the above
+[1.258s]   files.  If "example_interfaces" provides a separate development package or
+[1.258s]   SDK, be sure it has been installed.
+[1.258s] 
+[1.258s] [0m
+[1.258s] -- Configuring incomplete, errors occurred!
+[1.258s] See also "/workspace/build/examples_rclcpp_minimal_action_server/CMakeFiles/CMakeOutput.log".

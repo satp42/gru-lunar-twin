@@ -1,0 +1,395 @@
+[0.000000] (-) TimerEvent: {}
+[0.000362] (examples_rclcpp_async_client) JobQueued: {'identifier': 'examples_rclcpp_async_client', 'dependencies': OrderedDict()}
+[0.000443] (examples_rclcpp_cbg_executor) JobQueued: {'identifier': 'examples_rclcpp_cbg_executor', 'dependencies': OrderedDict()}
+[0.000469] (examples_rclcpp_minimal_action_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_client', 'dependencies': OrderedDict()}
+[0.000501] (examples_rclcpp_minimal_action_server) JobQueued: {'identifier': 'examples_rclcpp_minimal_action_server', 'dependencies': OrderedDict()}
+[0.000525] (examples_rclcpp_minimal_client) JobQueued: {'identifier': 'examples_rclcpp_minimal_client', 'dependencies': OrderedDict()}
+[0.000552] (examples_rclcpp_minimal_composition) JobQueued: {'identifier': 'examples_rclcpp_minimal_composition', 'dependencies': OrderedDict()}
+[0.000597] (examples_rclcpp_minimal_publisher) JobQueued: {'identifier': 'examples_rclcpp_minimal_publisher', 'dependencies': OrderedDict()}
+[0.000627] (examples_rclcpp_minimal_service) JobQueued: {'identifier': 'examples_rclcpp_minimal_service', 'dependencies': OrderedDict()}
+[0.000752] (examples_rclcpp_minimal_subscriber) JobQueued: {'identifier': 'examples_rclcpp_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.000779] (examples_rclcpp_minimal_timer) JobQueued: {'identifier': 'examples_rclcpp_minimal_timer', 'dependencies': OrderedDict()}
+[0.000800] (examples_rclcpp_multithreaded_executor) JobQueued: {'identifier': 'examples_rclcpp_multithreaded_executor', 'dependencies': OrderedDict()}
+[0.000813] (examples_rclcpp_wait_set) JobQueued: {'identifier': 'examples_rclcpp_wait_set', 'dependencies': OrderedDict()}
+[0.000848] (examples_rclpy_executors) JobQueued: {'identifier': 'examples_rclpy_executors', 'dependencies': OrderedDict()}
+[0.000864] (examples_rclpy_guard_conditions) JobQueued: {'identifier': 'examples_rclpy_guard_conditions', 'dependencies': OrderedDict()}
+[0.000879] (examples_rclpy_minimal_action_client) JobQueued: {'identifier': 'examples_rclpy_minimal_action_client', 'dependencies': OrderedDict()}
+[0.000893] (examples_rclpy_minimal_action_server) JobQueued: {'identifier': 'examples_rclpy_minimal_action_server', 'dependencies': OrderedDict()}
+[0.000906] (examples_rclpy_minimal_client) JobQueued: {'identifier': 'examples_rclpy_minimal_client', 'dependencies': OrderedDict()}
+[0.000920] (examples_rclpy_minimal_publisher) JobQueued: {'identifier': 'examples_rclpy_minimal_publisher', 'dependencies': OrderedDict()}
+[0.000933] (examples_rclpy_minimal_service) JobQueued: {'identifier': 'examples_rclpy_minimal_service', 'dependencies': OrderedDict()}
+[0.000947] (examples_rclpy_minimal_subscriber) JobQueued: {'identifier': 'examples_rclpy_minimal_subscriber', 'dependencies': OrderedDict()}
+[0.000960] (examples_rclpy_pointcloud_publisher) JobQueued: {'identifier': 'examples_rclpy_pointcloud_publisher', 'dependencies': OrderedDict()}
+[0.000972] (launch_testing_examples) JobQueued: {'identifier': 'launch_testing_examples', 'dependencies': OrderedDict()}
+[0.000986] (examples_rclcpp_async_client) JobStarted: {'identifier': 'examples_rclcpp_async_client'}
+[0.006076] (examples_rclcpp_cbg_executor) JobStarted: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.008195] (examples_rclcpp_minimal_action_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.009871] (examples_rclcpp_minimal_action_server) JobStarted: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.011620] (examples_rclcpp_minimal_client) JobStarted: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.013044] (examples_rclcpp_minimal_composition) JobStarted: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.015276] (examples_rclcpp_minimal_publisher) JobStarted: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.016643] (examples_rclcpp_minimal_service) JobStarted: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.020423] (examples_rclcpp_async_client) JobProgress: {'identifier': 'examples_rclcpp_async_client', 'progress': 'cmake'}
+[0.021263] (examples_rclcpp_async_client) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/examples/rclcpp/services/async_client', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_async_client'], 'cwd': '/workspace/build/examples_rclcpp_async_client', 'env': OrderedDict([('HOSTNAME', '635830b3e7ab'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/examples_rclcpp_async_client'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.024082] (examples_rclcpp_cbg_executor) JobProgress: {'identifier': 'examples_rclcpp_cbg_executor', 'progress': 'cmake'}
+[0.024912] (examples_rclcpp_cbg_executor) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/examples/rclcpp/executors/cbg_executor', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_cbg_executor'], 'cwd': '/workspace/build/examples_rclcpp_cbg_executor', 'env': OrderedDict([('HOSTNAME', '635830b3e7ab'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/examples_rclcpp_cbg_executor'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.029962] (examples_rclcpp_minimal_action_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_client', 'progress': 'cmake'}
+[0.032912] (examples_rclcpp_minimal_action_client) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/examples/rclcpp/actions/minimal_action_client', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_minimal_action_client'], 'cwd': '/workspace/build/examples_rclcpp_minimal_action_client', 'env': OrderedDict([('HOSTNAME', '635830b3e7ab'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/examples_rclcpp_minimal_action_client'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.038580] (examples_rclcpp_minimal_action_server) JobProgress: {'identifier': 'examples_rclcpp_minimal_action_server', 'progress': 'cmake'}
+[0.038739] (examples_rclcpp_minimal_action_server) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/examples/rclcpp/actions/minimal_action_server', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_minimal_action_server'], 'cwd': '/workspace/build/examples_rclcpp_minimal_action_server', 'env': OrderedDict([('HOSTNAME', '635830b3e7ab'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/examples_rclcpp_minimal_action_server'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.042327] (examples_rclcpp_minimal_client) JobProgress: {'identifier': 'examples_rclcpp_minimal_client', 'progress': 'cmake'}
+[0.045215] (examples_rclcpp_minimal_client) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/examples/rclcpp/services/minimal_client', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_minimal_client'], 'cwd': '/workspace/build/examples_rclcpp_minimal_client', 'env': OrderedDict([('HOSTNAME', '635830b3e7ab'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/examples_rclcpp_minimal_client'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.047701] (examples_rclcpp_minimal_composition) JobProgress: {'identifier': 'examples_rclcpp_minimal_composition', 'progress': 'cmake'}
+[0.048370] (examples_rclcpp_minimal_composition) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/examples/rclcpp/composition/minimal_composition', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_minimal_composition'], 'cwd': '/workspace/build/examples_rclcpp_minimal_composition', 'env': OrderedDict([('HOSTNAME', '635830b3e7ab'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/examples_rclcpp_minimal_composition'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.051723] (examples_rclcpp_minimal_publisher) JobProgress: {'identifier': 'examples_rclcpp_minimal_publisher', 'progress': 'cmake'}
+[0.054365] (examples_rclcpp_minimal_publisher) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/examples/rclcpp/topics/minimal_publisher', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_minimal_publisher'], 'cwd': '/workspace/build/examples_rclcpp_minimal_publisher', 'env': OrderedDict([('HOSTNAME', '635830b3e7ab'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/examples_rclcpp_minimal_publisher'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.058080] (examples_rclcpp_minimal_service) JobProgress: {'identifier': 'examples_rclcpp_minimal_service', 'progress': 'cmake'}
+[0.058988] (examples_rclcpp_minimal_service) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/examples/rclcpp/services/minimal_service', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_minimal_service'], 'cwd': '/workspace/build/examples_rclcpp_minimal_service', 'env': OrderedDict([('HOSTNAME', '635830b3e7ab'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/examples_rclcpp_minimal_service'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099760] (-) TimerEvent: {}
+[0.205129] (-) TimerEvent: {}
+[0.349607] (-) TimerEvent: {}
+[0.457523] (-) TimerEvent: {}
+[0.514750] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.515551] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.515919] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.524719] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.526788] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.528125] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.557682] (-) TimerEvent: {}
+[0.644748] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.653814] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.654613] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.658180] (-) TimerEvent: {}
+[0.668450] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.670736] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.671064] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.675579] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.676236] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.678888] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.683491] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.690298] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.695225] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.758210] (-) TimerEvent: {}
+[0.806032] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.806413] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.807820] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.813696] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.813987] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.814212] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.815166] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.815509] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.815835] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.819211] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.819570] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.819763] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.820041] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.825809] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.825958] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.826280] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.826727] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.826800] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.827434] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.828251] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.828648] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.828723] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.828801] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.828868] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.828921] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.831102] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.831189] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.831318] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.832352] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.834361] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.860480] (-) TimerEvent: {}
+[0.913470] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.927506] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.928122] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.932125] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.932569] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.934060] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.937407] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.940010] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.943839] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.959700] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.962578] (-) TimerEvent: {}
+[0.968658] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.968819] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.968886] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.968938] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.968995] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.969041] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.969087] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.969133] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.969191] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.969239] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.969289] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.969335] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.969391] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.969437] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.969482] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.969530] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.969576] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.969629] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.969677] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.970796] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.062632] (-) TimerEvent: {}
+[1.063760] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.066621] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.071405] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.077089] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.087793] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.089105] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.124339] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.142419] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.163191] (-) TimerEvent: {}
+[1.175927] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.181384] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.195923] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.205921] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.208144] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.219787] (examples_rclcpp_async_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.219962] (examples_rclcpp_async_client) StdoutLine: {'line': b'See also "/workspace/build/examples_rclcpp_async_client/CMakeFiles/CMakeOutput.log".\n'}
+[1.220032] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[1.220123] (examples_rclcpp_async_client) StderrLine: {'line': b'  By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.220175] (examples_rclcpp_async_client) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.220223] (examples_rclcpp_async_client) StderrLine: {'line': b'  "example_interfaces", but CMake did not find one.\n'}
+[1.220269] (examples_rclcpp_async_client) StderrLine: {'line': b'\n'}
+[1.220316] (examples_rclcpp_async_client) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.220375] (examples_rclcpp_async_client) StderrLine: {'line': b'  "example_interfaces" with any of the following names:\n'}
+[1.220424] (examples_rclcpp_async_client) StderrLine: {'line': b'\n'}
+[1.220471] (examples_rclcpp_async_client) StderrLine: {'line': b'    example_interfacesConfig.cmake\n'}
+[1.220531] (examples_rclcpp_async_client) StderrLine: {'line': b'    example_interfaces-config.cmake\n'}
+[1.220580] (examples_rclcpp_async_client) StderrLine: {'line': b'\n'}
+[1.220635] (examples_rclcpp_async_client) StderrLine: {'line': b'  Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[1.220682] (examples_rclcpp_async_client) StderrLine: {'line': b'  set "example_interfaces_DIR" to a directory containing one of the above\n'}
+[1.220730] (examples_rclcpp_async_client) StderrLine: {'line': b'  files.  If "example_interfaces" provides a separate development package or\n'}
+[1.220778] (examples_rclcpp_async_client) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[1.220824] (examples_rclcpp_async_client) StderrLine: {'line': b'\n'}
+[1.220870] (examples_rclcpp_async_client) StderrLine: {'line': b'\x1b[0m\n'}
+[1.223245] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.223446] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.223502] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.223556] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.223624] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.223671] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.223717] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.224168] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.224901] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.225662] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.225723] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.225775] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.225823] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.225873] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.225922] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.225973] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.226023] (examples_rclcpp_async_client) CommandEnded: {'returncode': 1}
+[1.237769] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[1.238578] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.238656] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.238709] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  "example_interfaces", but CMake did not find one.\n'}
+[1.238823] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\n'}
+[1.238893] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.238957] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  "example_interfaces" with any of the following names:\n'}
+[1.239011] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\n'}
+[1.240268] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'    example_interfacesConfig.cmake\n'}
+[1.241209] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'    example_interfaces-config.cmake\n'}
+[1.241461] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\n'}
+[1.241738] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[1.241955] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  set "example_interfaces_DIR" to a directory containing one of the above\n'}
+[1.242157] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  files.  If "example_interfaces" provides a separate development package or\n'}
+[1.242322] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[1.242491] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\n'}
+[1.242676] (examples_rclcpp_minimal_action_client) StderrLine: {'line': b'\x1b[0m\n'}
+[1.242871] (examples_rclcpp_minimal_client) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[1.243166] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.244042] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.245877] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  "example_interfaces", but CMake did not find one.\n'}
+[1.249083] (examples_rclcpp_minimal_client) StderrLine: {'line': b'\n'}
+[1.249472] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.249774] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  "example_interfaces" with any of the following names:\n'}
+[1.250073] (examples_rclcpp_minimal_client) StderrLine: {'line': b'\n'}
+[1.250384] (examples_rclcpp_minimal_client) StderrLine: {'line': b'    example_interfacesConfig.cmake\n'}
+[1.250728] (examples_rclcpp_minimal_client) StderrLine: {'line': b'    example_interfaces-config.cmake\n'}
+[1.253325] (examples_rclcpp_minimal_client) StderrLine: {'line': b'\n'}
+[1.254522] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[1.255894] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  set "example_interfaces_DIR" to a directory containing one of the above\n'}
+[1.256000] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  files.  If "example_interfaces" provides a separate development package or\n'}
+[1.257035] (examples_rclcpp_minimal_client) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[1.258110] (examples_rclcpp_minimal_client) StderrLine: {'line': b'\n'}
+[1.259662] (examples_rclcpp_minimal_client) StderrLine: {'line': b'\x1b[0m\n'}
+[1.259944] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.260149] (examples_rclcpp_minimal_client) StdoutLine: {'line': b'See also "/workspace/build/examples_rclcpp_minimal_client/CMakeFiles/CMakeOutput.log".\n'}
+[1.261174] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.261416] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.261492] (examples_rclcpp_minimal_action_client) StdoutLine: {'line': b'See also "/workspace/build/examples_rclcpp_minimal_action_client/CMakeFiles/CMakeOutput.log".\n'}
+[1.261550] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[1.262037] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.262246] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.263212] (-) TimerEvent: {}
+[1.263414] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  "example_interfaces", but CMake did not find one.\n'}
+[1.263676] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\n'}
+[1.264223] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.264326] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  "example_interfaces" with any of the following names:\n'}
+[1.265274] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\n'}
+[1.265520] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'    example_interfacesConfig.cmake\n'}
+[1.265872] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'    example_interfaces-config.cmake\n'}
+[1.266307] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\n'}
+[1.267057] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[1.267269] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  set "example_interfaces_DIR" to a directory containing one of the above\n'}
+[1.267435] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  files.  If "example_interfaces" provides a separate development package or\n'}
+[1.267517] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[1.268080] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\n'}
+[1.268154] (examples_rclcpp_minimal_action_server) StderrLine: {'line': b'\x1b[0m\n'}
+[1.268204] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.268259] (examples_rclcpp_minimal_action_server) StdoutLine: {'line': b'See also "/workspace/build/examples_rclcpp_minimal_action_server/CMakeFiles/CMakeOutput.log".\n'}
+[1.268321] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.268387] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.268451] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.268528] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.268576] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.268644] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.269367] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.269455] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.271045] (examples_rclcpp_async_client) JobEnded: {'identifier': 'examples_rclcpp_async_client', 'rc': 1}
+[1.277120] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[1.277685] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[1.277821] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[1.277876] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[1.277925] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[1.277972] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[1.278019] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[1.278065] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[1.278110] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[1.278155] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[1.278202] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[1.278273] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[1.278327] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[1.278384] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.278431] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[1.278481] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'-- Configuring incomplete, errors occurred!\n'}
+[1.278544] (examples_rclcpp_minimal_service) StdoutLine: {'line': b'See also "/workspace/build/examples_rclcpp_minimal_service/CMakeFiles/CMakeOutput.log".\n'}
+[1.278693] (examples_rclcpp_minimal_service) StderrLine: {'line': b'\x1b[31mCMake Error at CMakeLists.txt:14 (find_package):\n'}
+[1.278783] (examples_rclcpp_minimal_service) StderrLine: {'line': b'  By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this\n'}
+[1.278832] (examples_rclcpp_minimal_service) StderrLine: {'line': b'  project has asked CMake to find a package configuration file provided by\n'}
+[1.278878] (examples_rclcpp_minimal_service) StderrLine: {'line': b'  "example_interfaces", but CMake did not find one.\n'}
+[1.278923] (examples_rclcpp_minimal_service) StderrLine: {'line': b'\n'}
+[1.278982] (examples_rclcpp_minimal_service) StderrLine: {'line': b'  Could not find a package configuration file provided by\n'}
+[1.279028] (examples_rclcpp_minimal_service) StderrLine: {'line': b'  "example_interfaces" with any of the following names:\n'}
+[1.279072] (examples_rclcpp_minimal_service) StderrLine: {'line': b'\n'}
+[1.279116] (examples_rclcpp_minimal_service) StderrLine: {'line': b'    example_interfacesConfig.cmake\n'}
+[1.279160] (examples_rclcpp_minimal_service) StderrLine: {'line': b'    example_interfaces-config.cmake\n'}
+[1.279206] (examples_rclcpp_minimal_service) StderrLine: {'line': b'\n'}
+[1.279249] (examples_rclcpp_minimal_service) StderrLine: {'line': b'  Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or\n'}
+[1.279294] (examples_rclcpp_minimal_service) StderrLine: {'line': b'  set "example_interfaces_DIR" to a directory containing one of the above\n'}
+[1.279339] (examples_rclcpp_minimal_service) StderrLine: {'line': b'  files.  If "example_interfaces" provides a separate development package or\n'}
+[1.279384] (examples_rclcpp_minimal_service) StderrLine: {'line': b'  SDK, be sure it has been installed.\n'}
+[1.279428] (examples_rclcpp_minimal_service) StderrLine: {'line': b'\n'}
+[1.279472] (examples_rclcpp_minimal_service) StderrLine: {'line': b'\x1b[0m\n'}
+[1.279518] (examples_rclcpp_minimal_service) JobEnded: {'identifier': 'examples_rclcpp_minimal_service', 'rc': 'SIGINT'}
+[1.280428] (examples_rclcpp_minimal_action_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_client', 'rc': 'SIGINT'}
+[1.281181] (examples_rclcpp_minimal_client) JobEnded: {'identifier': 'examples_rclcpp_minimal_client', 'rc': 'SIGINT'}
+[1.281838] (examples_rclcpp_minimal_action_server) JobEnded: {'identifier': 'examples_rclcpp_minimal_action_server', 'rc': 'SIGINT'}
+[1.282880] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.283090] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.283420] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.288658] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.297960] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.298685] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.317503] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.364304] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.364499] (-) TimerEvent: {}
+[1.365643] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.366103] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.366989] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.367786] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.370927] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.452964] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.459711] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.461648] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.464604] (-) TimerEvent: {}
+[1.470571] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.494772] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.501844] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.532146] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.534009] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.537408] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.542004] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.542569] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.548370] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.570768] (-) TimerEvent: {}
+[1.647823] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.649352] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.658905] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.659345] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.659685] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.660238] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.673270] (-) TimerEvent: {}
+[1.717810] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.718251] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.721181] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.722173] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.722656] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.723983] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.778447] (-) TimerEvent: {}
+[1.789644] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found rclcpp_components: 16.0.12 (/opt/ros/humble/share/rclcpp_components/cmake)\n'}
+[1.795846] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.796753] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.820745] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[1.863457] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.863936] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.864359] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.864877] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[1.864967] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.865655] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.865724] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.865987] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.866282] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.866508] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /workspace/src/examples/rclcpp/executors/cbg_executor/include\n'}
+[1.866571] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.867117] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.867185] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.867733] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.870441] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.871159] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.871616] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.874318] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.875185] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.875503] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.876800] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.878892] (-) TimerEvent: {}
+[1.881187] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.881561] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.882910] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.883474] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /workspace/src/examples/rclcpp/composition/minimal_composition/include\n'}
+[1.883842] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.885810] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.886330] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.886948] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.889178] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.889325] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.889863] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.892784] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.911192] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Generating done\n'}
+[1.916489] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Generating done\n'}
+[1.923016] (examples_rclcpp_cbg_executor) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/examples_rclcpp_cbg_executor\n'}
+[1.927959] (examples_rclcpp_cbg_executor) JobEnded: {'identifier': 'examples_rclcpp_cbg_executor', 'rc': 'SIGINT'}
+[1.932574] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Generating done\n'}
+[1.932988] (examples_rclcpp_minimal_publisher) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/examples_rclcpp_minimal_publisher\n'}
+[1.938605] (examples_rclcpp_minimal_publisher) JobEnded: {'identifier': 'examples_rclcpp_minimal_publisher', 'rc': 'SIGINT'}
+[1.943518] (examples_rclcpp_minimal_composition) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/examples_rclcpp_minimal_composition\n'}
+[1.947549] (examples_rclcpp_minimal_composition) JobEnded: {'identifier': 'examples_rclcpp_minimal_composition', 'rc': 'SIGINT'}
+[1.958606] (examples_rclcpp_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[1.958665] (examples_rclcpp_minimal_timer) JobSkipped: {'identifier': 'examples_rclcpp_minimal_timer'}
+[1.958688] (examples_rclcpp_multithreaded_executor) JobSkipped: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[1.958710] (examples_rclcpp_wait_set) JobSkipped: {'identifier': 'examples_rclcpp_wait_set'}
+[1.958739] (examples_rclpy_executors) JobSkipped: {'identifier': 'examples_rclpy_executors'}
+[1.958806] (examples_rclpy_guard_conditions) JobSkipped: {'identifier': 'examples_rclpy_guard_conditions'}
+[1.958865] (examples_rclpy_minimal_action_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_client'}
+[1.958913] (examples_rclpy_minimal_action_server) JobSkipped: {'identifier': 'examples_rclpy_minimal_action_server'}
+[1.958931] (examples_rclpy_minimal_client) JobSkipped: {'identifier': 'examples_rclpy_minimal_client'}
+[1.958946] (examples_rclpy_minimal_publisher) JobSkipped: {'identifier': 'examples_rclpy_minimal_publisher'}
+[1.958960] (examples_rclpy_minimal_service) JobSkipped: {'identifier': 'examples_rclpy_minimal_service'}
+[1.958974] (examples_rclpy_minimal_subscriber) JobSkipped: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[1.958987] (examples_rclpy_pointcloud_publisher) JobSkipped: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[1.958999] (launch_testing_examples) JobSkipped: {'identifier': 'launch_testing_examples'}
+[1.959013] (-) EventReactorShutdown: {}
