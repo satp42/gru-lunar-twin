@@ -1,0 +1,34 @@
+[0.021s] Invoking command in '/workspace/build/examples_rclcpp_minimal_action_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/examples/rclcpp/actions/minimal_action_client -DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_minimal_action_client
+[0.171s] -- The C compiler identification is GNU 11.4.0
+[0.278s] -- The CXX compiler identification is GNU 11.4.0
+[0.298s] -- Detecting C compiler ABI info
+[0.431s] -- Detecting C compiler ABI info - done
+[0.442s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.442s] -- Detecting C compile features
+[0.442s] -- Detecting C compile features - done
+[0.445s] -- Detecting CXX compiler ABI info
+[0.659s] -- Detecting CXX compiler ABI info - done
+[0.684s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.684s] -- Detecting CXX compile features
+[0.690s] -- Detecting CXX compile features - done
+[0.701s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.886s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.020s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.020s]   By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this
+[1.020s]   project has asked CMake to find a package configuration file provided by
+[1.020s]   "example_interfaces", but CMake did not find one.
+[1.020s] 
+[1.020s]   Could not find a package configuration file provided by
+[1.020s]   "example_interfaces" with any of the following names:
+[1.020s] 
+[1.020s]     example_interfacesConfig.cmake
+[1.021s]     example_interfaces-config.cmake
+[1.021s] 
+[1.021s]   Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or
+[1.021s]   set "example_interfaces_DIR" to a directory containing one of the above
+[1.021s]   files.  If "example_interfaces" provides a separate development package or
+[1.021s]   SDK, be sure it has been installed.
+[1.021s] 
+[1.021s] [0m
+[1.021s] -- Configuring incomplete, errors occurred!
+[1.021s] See also "/workspace/build/examples_rclcpp_minimal_action_client/CMakeFiles/CMakeOutput.log".

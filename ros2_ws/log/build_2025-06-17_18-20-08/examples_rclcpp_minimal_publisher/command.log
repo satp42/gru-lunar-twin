@@ -1,0 +1,1 @@
+Invoking command in '/workspace/build/examples_rclcpp_minimal_publisher': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/examples/rclcpp/topics/minimal_publisher -DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_minimal_publisher

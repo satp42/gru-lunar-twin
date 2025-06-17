@@ -1,0 +1,4 @@
+msg/BatteryStatus.idl
+msg/BatteryStatus.msg
+msg/MassReading.idl
+msg/MassReading.msg

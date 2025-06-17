@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fleet_msgs/msg/MassReading.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module fleet_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Mass reading message for fleet operations")
+    struct MassReading {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Mass in kilograms")
+      double mass_kg;
+
+      @verbatim (language="comment", text=
+        "Unit/vehicle identifier")
+      string unit_id;
+    };
+  };
+};

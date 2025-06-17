@@ -1,0 +1,327 @@
+[0.000000] (-) TimerEvent: {}
+[0.000134] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000163] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000183] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000205] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000293] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000323] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000341] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000362] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000376] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000390] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000404] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000417] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000430] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000450] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000465] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000482] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000514] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000547] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000570] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000590] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000616] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000897] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000924] (-) JobUnselected: {'identifier': 'sim'}
+[0.000940] (fleet_msgs) JobQueued: {'identifier': 'fleet_msgs', 'dependencies': OrderedDict()}
+[0.001007] (fleet_msgs) JobStarted: {'identifier': 'fleet_msgs'}
+[0.007893] (fleet_msgs) JobProgress: {'identifier': 'fleet_msgs', 'progress': 'cmake'}
+[0.008762] (fleet_msgs) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/fleet_msgs', '-DCMAKE_INSTALL_PREFIX=/workspace/install/fleet_msgs'], 'cwd': '/workspace/build/fleet_msgs', 'env': OrderedDict([('HOSTNAME', '1cffe2e11131'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/install/sim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/install/sim:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/fleet_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/sim:/opt/ros/humble')]), 'shell': False}
+[0.100199] (-) TimerEvent: {}
+[0.201142] (-) TimerEvent: {}
+[0.212242] (fleet_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.301401] (-) TimerEvent: {}
+[0.327878] (fleet_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.334422] (fleet_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.394557] (fleet_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.399995] (fleet_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.400172] (fleet_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.400798] (fleet_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.401605] (-) TimerEvent: {}
+[0.403702] (fleet_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.464445] (fleet_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.470111] (fleet_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.470275] (fleet_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.470605] (fleet_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.473438] (fleet_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.506217] (-) TimerEvent: {}
+[0.561872] (fleet_msgs) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.607391] (-) TimerEvent: {}
+[0.619607] (fleet_msgs) StdoutLine: {'line': b'-- Found std_msgs: 4.8.0 (/opt/ros/humble/share/std_msgs/cmake)\n'}
+[0.656447] (fleet_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.660754] (fleet_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.666764] (fleet_msgs) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.676248] (fleet_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.687166] (fleet_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.706676] (fleet_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.707626] (-) TimerEvent: {}
+[0.809438] (-) TimerEvent: {}
+[0.893466] (fleet_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.910849] (-) TimerEvent: {}
+[1.011284] (-) TimerEvent: {}
+[1.114429] (-) TimerEvent: {}
+[1.134262] (fleet_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.215759] (-) TimerEvent: {}
+[1.219042] (fleet_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.230825] (fleet_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[1.232215] (fleet_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[1.250728] (fleet_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/aarch64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[1.251257] (fleet_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.251332] (fleet_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[1.251398] (fleet_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[1.263377] (fleet_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.311680] (fleet_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.316617] (-) TimerEvent: {}
+[1.383559] (fleet_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.403865] (fleet_msgs) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/fleet_msgs\n'}
+[1.408877] (fleet_msgs) CommandEnded: {'returncode': 0}
+[1.409230] (fleet_msgs) JobProgress: {'identifier': 'fleet_msgs', 'progress': 'build'}
+[1.409282] (fleet_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/fleet_msgs', '--', '-j8', '-l8'], 'cwd': '/workspace/build/fleet_msgs', 'env': OrderedDict([('HOSTNAME', '1cffe2e11131'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/install/sim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/install/sim:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/fleet_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/sim:/opt/ros/humble')]), 'shell': False}
+[1.417076] (-) TimerEvent: {}
+[1.434497] (fleet_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.442148] (fleet_msgs) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.445874] (fleet_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_fleet_msgs\n'}
+[1.517385] (-) TimerEvent: {}
+[1.566767] (fleet_msgs) StdoutLine: {'line': b'running egg_info\n'}
+[1.567233] (fleet_msgs) StdoutLine: {'line': b'creating fleet_msgs.egg-info\n'}
+[1.567601] (fleet_msgs) StdoutLine: {'line': b'writing fleet_msgs.egg-info/PKG-INFO\n'}
+[1.567681] (fleet_msgs) StdoutLine: {'line': b'writing dependency_links to fleet_msgs.egg-info/dependency_links.txt\n'}
+[1.567766] (fleet_msgs) StdoutLine: {'line': b'writing top-level names to fleet_msgs.egg-info/top_level.txt\n'}
+[1.567819] (fleet_msgs) StdoutLine: {'line': b"writing manifest file 'fleet_msgs.egg-info/SOURCES.txt'\n"}
+[1.570057] (fleet_msgs) StdoutLine: {'line': b"reading manifest file 'fleet_msgs.egg-info/SOURCES.txt'\n"}
+[1.570392] (fleet_msgs) StdoutLine: {'line': b"writing manifest file 'fleet_msgs.egg-info/SOURCES.txt'\n"}
+[1.585879] (fleet_msgs) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_fleet_msgs_egg\n'}
+[1.617978] (-) TimerEvent: {}
+[1.718733] (-) TimerEvent: {}
+[1.750157] (fleet_msgs) StdoutLine: {'line': b'[ 10%] Built target fleet_msgs__cpp\n'}
+[1.750359] (fleet_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/fleet_msgs/msg/detail/battery_status__functions.c.o\x1b[0m\n'}
+[1.750448] (fleet_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/fleet_msgs__rosidl_generator_c.dir/rosidl_generator_c/fleet_msgs/msg/detail/mass_reading__functions.c.o\x1b[0m\n'}
+[1.892253] (-) TimerEvent: {}
+[1.892668] (fleet_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.892822] (fleet_msgs) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[1.925243] (fleet_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[1.994249] (-) TimerEvent: {}
+[2.039760] (fleet_msgs) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libfleet_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.072661] (fleet_msgs) StdoutLine: {'line': b'[ 20%] Built target fleet_msgs__rosidl_generator_c\n'}
+[2.085166] (fleet_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.090012] (fleet_msgs) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.090602] (fleet_msgs) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.095300] (-) TimerEvent: {}
+[2.196469] (-) TimerEvent: {}
+[2.298128] (-) TimerEvent: {}
+[2.319883] (fleet_msgs) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fleet_msgs/msg/mass_reading__type_support.cpp.o\x1b[0m\n'}
+[2.338840] (fleet_msgs) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/fleet_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/fleet_msgs/msg/battery_status__type_support.cpp.o\x1b[0m\n'}
+[2.383486] (fleet_msgs) StdoutLine: {'line': b'[ 35%] \x1b[32mBuilding CXX object CMakeFiles/fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_msgs/msg/detail/dds_fastrtps/mass_reading__type_support.cpp.o\x1b[0m\n'}
+[2.389011] (fleet_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/fleet_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/fleet_msgs/msg/detail/dds_fastrtps/battery_status__type_support.cpp.o\x1b[0m\n'}
+[2.394988] (fleet_msgs) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fleet_msgs/msg/detail/mass_reading__type_support.cpp.o\x1b[0m\n'}
+[2.398538] (-) TimerEvent: {}
+[2.455572] (fleet_msgs) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding C object CMakeFiles/fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_msgs/msg/detail/mass_reading__type_support.c.o\x1b[0m\n'}
+[2.467828] (fleet_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fleet_msgs/msg/mass_reading__type_support.cpp.o\x1b[0m\n'}
+[2.499189] (-) TimerEvent: {}
+[2.501829] (fleet_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/fleet_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/fleet_msgs/msg/detail/battery_status__type_support.c.o\x1b[0m\n'}
+[2.508298] (fleet_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fleet_msgs/msg/detail/mass_reading__type_support_c.cpp.o\x1b[0m\n'}
+[2.534434] (fleet_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/fleet_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/fleet_msgs/msg/battery_status__type_support.cpp.o\x1b[0m\n'}
+[2.600763] (-) TimerEvent: {}
+[2.613405] (fleet_msgs) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libfleet_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[2.614195] (fleet_msgs) StdoutLine: {'line': b'[ 58%] \x1b[32m\x1b[1mLinking C shared library libfleet_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[2.666771] (fleet_msgs) StdoutLine: {'line': b'[ 58%] Built target fleet_msgs__rosidl_typesupport_c\n'}
+[2.681459] (fleet_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/fleet_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/fleet_msgs/msg/detail/battery_status__type_support_c.cpp.o\x1b[0m\n'}
+[2.692142] (fleet_msgs) StdoutLine: {'line': b'[ 61%] Built target fleet_msgs__rosidl_typesupport_introspection_c\n'}
+[2.700982] (-) TimerEvent: {}
+[2.706461] (fleet_msgs) StdoutLine: {'line': b'[ 64%] \x1b[32mBuilding CXX object CMakeFiles/fleet_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/fleet_msgs/msg/detail/battery_status__type_support.cpp.o\x1b[0m\n'}
+[2.802228] (-) TimerEvent: {}
+[2.903323] (-) TimerEvent: {}
+[2.929673] (fleet_msgs) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libfleet_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.003638] (-) TimerEvent: {}
+[3.126831] (-) TimerEvent: {}
+[3.182906] (fleet_msgs) StdoutLine: {'line': b'[ 66%] Built target fleet_msgs__rosidl_typesupport_cpp\n'}
+[3.214154] (fleet_msgs) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libfleet_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[3.227233] (-) TimerEvent: {}
+[3.280838] (fleet_msgs) StdoutLine: {'line': b'[ 69%] Built target fleet_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[3.313980] (fleet_msgs) StdoutLine: {'line': b'[ 71%] \x1b[32m\x1b[1mLinking CXX shared library libfleet_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[3.327499] (-) TimerEvent: {}
+[3.373332] (fleet_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libfleet_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.374138] (fleet_msgs) StdoutLine: {'line': b'[ 74%] Built target fleet_msgs__rosidl_typesupport_fastrtps_c\n'}
+[3.425625] (fleet_msgs) StdoutLine: {'line': b'[ 74%] Built target fleet_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.427792] (-) TimerEvent: {}
+[3.445471] (fleet_msgs) StdoutLine: {'line': b'[ 74%] Built target fleet_msgs\n'}
+[3.461450] (fleet_msgs) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[3.528151] (-) TimerEvent: {}
+[3.629239] (-) TimerEvent: {}
+[3.729621] (-) TimerEvent: {}
+[3.799739] (fleet_msgs) StdoutLine: {'line': b'[ 76%] Built target fleet_msgs__py\n'}
+[3.812629] (fleet_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/fleet_msgs/msg/_mass_reading_s.c.o\x1b[0m\n'}
+[3.813051] (fleet_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/fleet_msgs__rosidl_generator_py.dir/rosidl_generator_py/fleet_msgs/msg/_battery_status_s.c.o\x1b[0m\n'}
+[3.829795] (-) TimerEvent: {}
+[3.899006] (fleet_msgs) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fleet_msgs/libfleet_msgs__rosidl_generator_py.so\x1b[0m\n'}
+[3.923120] (fleet_msgs) StdoutLine: {'line': b'[ 84%] Built target fleet_msgs__rosidl_generator_py\n'}
+[3.931498] (-) TimerEvent: {}
+[3.938605] (fleet_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/fleet_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/fleet_msgs/_fleet_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[3.938982] (fleet_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/fleet_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/fleet_msgs/_fleet_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[3.940699] (fleet_msgs) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/fleet_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/fleet_msgs/_fleet_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[4.016309] (fleet_msgs) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fleet_msgs/fleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[4.018074] (fleet_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fleet_msgs/fleet_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[4.018244] (fleet_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/fleet_msgs/fleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[4.031846] (-) TimerEvent: {}
+[4.039988] (fleet_msgs) StdoutLine: {'line': b'[100%] Built target fleet_msgs__rosidl_typesupport_c__pyext\n'}
+[4.048286] (fleet_msgs) StdoutLine: {'line': b'[100%] Built target fleet_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[4.051640] (fleet_msgs) StdoutLine: {'line': b'[100%] Built target fleet_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[4.063057] (fleet_msgs) CommandEnded: {'returncode': 0}
+[4.063289] (fleet_msgs) JobProgress: {'identifier': 'fleet_msgs', 'progress': 'install'}
+[4.067823] (fleet_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/fleet_msgs'], 'cwd': '/workspace/build/fleet_msgs', 'env': OrderedDict([('HOSTNAME', '1cffe2e11131'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/workspace/install/sim/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/install/sim:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/fleet_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/sim:/opt/ros/humble')]), 'shell': False}
+[4.073929] (fleet_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[4.074517] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/ament_index/resource_index/rosidl_interfaces/fleet_msgs\n'}
+[4.074725] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs\n'}
+[4.074803] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg\n'}
+[4.074856] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[4.075248] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/battery_status.h\n'}
+[4.075615] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail\n'}
+[4.075810] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__functions.c\n'}
+[4.076190] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__type_support.h\n'}
+[4.076818] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__functions.h\n'}
+[4.076932] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__struct.h\n'}
+[4.078589] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__functions.h\n'}
+[4.079067] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__functions.c\n'}
+[4.079142] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__struct.h\n'}
+[4.079195] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__type_support.h\n'}
+[4.079245] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/mass_reading.h\n'}
+[4.079558] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/environment/library_path.sh\n'}
+[4.079957] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/environment/library_path.dsv\n'}
+[4.080190] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_generator_c.so\n'}
+[4.080747] (fleet_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_generator_c.so" to ""\n'}
+[4.080845] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs\n'}
+[4.081298] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg\n'}
+[4.081747] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail\n'}
+[4.081809] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__rosidl_typesupport_fastrtps_c.h\n'}
+[4.081859] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_c.h\n'}
+[4.081906] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[4.082215] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[4.083651] (fleet_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[4.083918] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs\n'}
+[4.083974] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg\n'}
+[4.084023] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail\n'}
+[4.084070] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__type_support.hpp\n'}
+[4.085406] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__struct.hpp\n'}
+[4.085557] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__builder.hpp\n'}
+[4.085856] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__traits.hpp\n'}
+[4.086115] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__traits.hpp\n'}
+[4.086431] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__builder.hpp\n'}
+[4.086777] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__type_support.hpp\n'}
+[4.087071] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__struct.hpp\n'}
+[4.088398] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[4.088463] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/battery_status.hpp\n'}
+[4.089377] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/mass_reading.hpp\n'}
+[4.089439] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs\n'}
+[4.089487] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg\n'}
+[4.089534] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[4.089590] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail\n'}
+[4.090622] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.090717] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[4.090809] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/dds_fastrtps\n'}
+[4.091635] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[4.093269] (fleet_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[4.093429] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs\n'}
+[4.093498] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg\n'}
+[4.093547] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail\n'}
+[4.093593] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_c.h\n'}
+[4.093655] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__rosidl_typesupport_introspection_c.h\n'}
+[4.093701] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__type_support.c\n'}
+[4.093923] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__type_support.c\n'}
+[4.094606] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[4.094920] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_introspection_c.so\n'}
+[4.095792] (fleet_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[4.096262] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_c.so\n'}
+[4.096632] (fleet_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_c.so" to ""\n'}
+[4.096822] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs\n'}
+[4.096880] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg\n'}
+[4.096925] (fleet_msgs) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail\n'}
+[4.096970] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__type_support.cpp\n'}
+[4.097074] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/battery_status__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.097435] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__type_support.cpp\n'}
+[4.097892] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/include/fleet_msgs/fleet_msgs/msg/detail/mass_reading__rosidl_typesupport_introspection_cpp.hpp\n'}
+[4.098232] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[4.098737] (fleet_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[4.098913] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_cpp.so\n'}
+[4.099605] (fleet_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[4.099731] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/environment/pythonpath.sh\n'}
+[4.099797] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/environment/pythonpath.dsv\n'}
+[4.100204] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs-0.1.0-py3.10.egg-info\n'}
+[4.100664] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs-0.1.0-py3.10.egg-info/PKG-INFO\n'}
+[4.100972] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs-0.1.0-py3.10.egg-info/SOURCES.txt\n'}
+[4.101252] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs-0.1.0-py3.10.egg-info/top_level.txt\n'}
+[4.101672] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs-0.1.0-py3.10.egg-info/dependency_links.txt\n'}
+[4.101997] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs\n'}
+[4.102208] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/_fleet_msgs_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[4.102525] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/msg\n'}
+[4.102705] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/msg/_mass_reading_s.c\n'}
+[4.103239] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/msg/_battery_status.py\n'}
+[4.103581] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/msg/__init__.py\n'}
+[4.103798] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/msg/_mass_reading.py\n'}
+[4.104288] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/msg/_battery_status_s.c\n'}
+[4.104884] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/fleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.105043] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/__init__.py\n'}
+[4.105244] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/_fleet_msgs_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[4.105791] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/_fleet_msgs_s.ep.rosidl_typesupport_c.c\n'}
+[4.106088] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/fleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.106499] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/libfleet_msgs__rosidl_generator_py.so\n'}
+[4.107243] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/fleet_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.129597] (fleet_msgs) StdoutLine: {'line': b"Listing '/workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs'...\n"}
+[4.129919] (fleet_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/__init__.py'...\n"}
+[4.129975] (fleet_msgs) StdoutLine: {'line': b"Listing '/workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/msg'...\n"}
+[4.130023] (fleet_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/msg/__init__.py'...\n"}
+[4.130101] (fleet_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/msg/_battery_status.py'...\n"}
+[4.130146] (fleet_msgs) StdoutLine: {'line': b"Compiling '/workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/msg/_mass_reading.py'...\n"}
+[4.132030] (-) TimerEvent: {}
+[4.132377] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/fleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.133002] (fleet_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/fleet_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[4.133152] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/fleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.133578] (fleet_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/fleet_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[4.133778] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/fleet_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[4.134363] (fleet_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/fleet_msgs/local/lib/python3.10/dist-packages/fleet_msgs/fleet_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[4.134510] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_generator_py.so\n'}
+[4.135095] (fleet_msgs) StdoutLine: {'line': b'-- Set runtime path of "/workspace/install/fleet_msgs/lib/libfleet_msgs__rosidl_generator_py.so" to ""\n'}
+[4.135409] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/msg/MassReading.idl\n'}
+[4.135738] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/msg/BatteryStatus.idl\n'}
+[4.136297] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/msg/MassReading.msg\n'}
+[4.136632] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/msg/BatteryStatus.msg\n'}
+[4.137051] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/ament_index/resource_index/package_run_dependencies/fleet_msgs\n'}
+[4.137565] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/ament_index/resource_index/parent_prefix_path/fleet_msgs\n'}
+[4.137664] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/environment/ament_prefix_path.sh\n'}
+[4.137999] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/environment/ament_prefix_path.dsv\n'}
+[4.138428] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/environment/path.sh\n'}
+[4.138764] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/environment/path.dsv\n'}
+[4.140020] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/local_setup.bash\n'}
+[4.140150] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/local_setup.sh\n'}
+[4.140860] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/local_setup.zsh\n'}
+[4.141613] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/local_setup.dsv\n'}
+[4.141894] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/package.dsv\n'}
+[4.142470] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/ament_index/resource_index/packages/fleet_msgs\n'}
+[4.143036] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/export_fleet_msgs__rosidl_generator_cExport.cmake\n'}
+[4.143523] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/export_fleet_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[4.144274] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/export_fleet_msgs__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[4.144623] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/export_fleet_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[4.144884] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/export_fleet_msgs__rosidl_generator_cppExport.cmake\n'}
+[4.145556] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/export_fleet_msgs__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[4.145898] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/export_fleet_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[4.146450] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/fleet_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[4.147173] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/fleet_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[4.147755] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/fleet_msgs__rosidl_typesupport_cExport.cmake\n'}
+[4.148078] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/fleet_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[4.148364] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/fleet_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[4.148923] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/fleet_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[4.149476] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/fleet_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[4.149592] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/fleet_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[4.149922] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/export_fleet_msgs__rosidl_generator_pyExport.cmake\n'}
+[4.150803] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/export_fleet_msgs__rosidl_generator_pyExport-noconfig.cmake\n'}
+[4.150953] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[4.151016] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[4.151575] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[4.152050] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[4.152194] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[4.152529] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[4.153012] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[4.153281] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/fleet_msgsConfig.cmake\n'}
+[4.153495] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/cmake/fleet_msgsConfig-version.cmake\n'}
+[4.153936] (fleet_msgs) StdoutLine: {'line': b'-- Installing: /workspace/install/fleet_msgs/share/fleet_msgs/package.xml\n'}
+[4.155723] (fleet_msgs) CommandEnded: {'returncode': 0}
+[4.176486] (fleet_msgs) JobEnded: {'identifier': 'fleet_msgs', 'rc': 0}
+[4.177083] (-) EventReactorShutdown: {}

@@ -1,0 +1,9 @@
+setup.py
+fleet_msgs/__init__.py
+fleet_msgs.egg-info/PKG-INFO
+fleet_msgs.egg-info/SOURCES.txt
+fleet_msgs.egg-info/dependency_links.txt
+fleet_msgs.egg-info/top_level.txt
+fleet_msgs/msg/__init__.py
+fleet_msgs/msg/_battery_status.py
+fleet_msgs/msg/_mass_reading.py

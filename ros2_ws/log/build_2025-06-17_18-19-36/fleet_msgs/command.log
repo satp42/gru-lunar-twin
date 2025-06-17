@@ -1,0 +1,6 @@
+Invoking command in '/workspace/build/fleet_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/fleet_msgs -DCMAKE_INSTALL_PREFIX=/workspace/install/fleet_msgs
+Invoked command in '/workspace/build/fleet_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/fleet_msgs -DCMAKE_INSTALL_PREFIX=/workspace/install/fleet_msgs
+Invoking command in '/workspace/build/fleet_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/build/fleet_msgs -- -j8 -l8
+Invoked command in '/workspace/build/fleet_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/build/fleet_msgs -- -j8 -l8
+Invoking command in '/workspace/build/fleet_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/build/fleet_msgs
+Invoked command in '/workspace/build/fleet_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/build/fleet_msgs

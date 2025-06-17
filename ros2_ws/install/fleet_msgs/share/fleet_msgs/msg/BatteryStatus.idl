@@ -1,0 +1,31 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from fleet_msgs/msg/BatteryStatus.msg
+// generated code does not contain a copyright notice
+
+#include "std_msgs/msg/Header.idl"
+
+module fleet_msgs {
+  module msg {
+    @verbatim (language="comment", text=
+      "Battery status message for fleet power management")
+    struct BatteryStatus {
+      std_msgs::msg::Header header;
+
+      @verbatim (language="comment", text=
+        "Unit/vehicle identifier")
+      string unit_id;
+
+      @verbatim (language="comment", text=
+        "State of Charge (0-100%)")
+      double soc_percentage;
+
+      @verbatim (language="comment", text=
+        "Battery voltage in volts")
+      double voltage_v;
+
+      @verbatim (language="comment", text=
+        "Charging status")
+      boolean charging;
+    };
+  };
+};

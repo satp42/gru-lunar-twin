@@ -1,0 +1,34 @@
+[0.026s] Invoking command in '/workspace/build/examples_rclcpp_minimal_client': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /workspace/src/examples/rclcpp/services/minimal_client -DCMAKE_INSTALL_PREFIX=/workspace/install/examples_rclcpp_minimal_client
+[0.164s] -- The C compiler identification is GNU 11.4.0
+[0.273s] -- The CXX compiler identification is GNU 11.4.0
+[0.286s] -- Detecting C compiler ABI info
+[0.409s] -- Detecting C compiler ABI info - done
+[0.433s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.434s] -- Detecting C compile features
+[0.434s] -- Detecting C compile features - done
+[0.439s] -- Detecting CXX compiler ABI info
+[0.671s] -- Detecting CXX compiler ABI info - done
+[0.701s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.701s] -- Detecting CXX compile features
+[0.701s] -- Detecting CXX compile features - done
+[0.706s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.930s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.034s] -- Configuring incomplete, errors occurred!
+[1.034s] See also "/workspace/build/examples_rclcpp_minimal_client/CMakeFiles/CMakeOutput.log".
+[1.035s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[1.035s]   By not providing "Findexample_interfaces.cmake" in CMAKE_MODULE_PATH this
+[1.035s]   project has asked CMake to find a package configuration file provided by
+[1.035s]   "example_interfaces", but CMake did not find one.
+[1.036s] 
+[1.036s]   Could not find a package configuration file provided by
+[1.036s]   "example_interfaces" with any of the following names:
+[1.036s] 
+[1.036s]     example_interfacesConfig.cmake
+[1.036s]     example_interfaces-config.cmake
+[1.036s] 
+[1.036s]   Add the installation prefix of "example_interfaces" to CMAKE_PREFIX_PATH or
+[1.036s]   set "example_interfaces_DIR" to a directory containing one of the above
+[1.036s]   files.  If "example_interfaces" provides a separate development package or
+[1.036s]   SDK, be sure it has been installed.
+[1.036s] 
+[1.036s] [0m
