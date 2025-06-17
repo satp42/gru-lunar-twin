@@ -1,0 +1,6 @@
+Invoking command in '/workspace/build/sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/src/sim -DCMAKE_INSTALL_PREFIX=/workspace/install/sim
+Invoked command in '/workspace/build/sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /workspace/src/sim -DCMAKE_INSTALL_PREFIX=/workspace/install/sim
+Invoking command in '/workspace/build/sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/sim -- -j8 -l8
+Invoked command in '/workspace/build/sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/build/sim -- -j8 -l8
+Invoking command in '/workspace/build/sim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/sim
+Invoked command in '/workspace/build/sim' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /workspace/build/sim

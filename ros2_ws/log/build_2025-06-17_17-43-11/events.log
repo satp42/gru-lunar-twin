@@ -1,0 +1,59 @@
+[0.000000] (-) TimerEvent: {}
+[0.000362] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000391] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000408] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000423] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000437] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000451] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000465] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000478] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000492] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000521] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000540] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000553] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000723] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000753] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000822] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000846] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000865] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000974] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.001017] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.001035] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.001053] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001067] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001082] (sim) JobQueued: {'identifier': 'sim', 'dependencies': OrderedDict()}
+[0.001097] (sim) JobStarted: {'identifier': 'sim'}
+[0.006332] (sim) JobProgress: {'identifier': 'sim', 'progress': 'cmake'}
+[0.007043] (sim) JobProgress: {'identifier': 'sim', 'progress': 'build'}
+[0.007462] (sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/sim', '--', '-j8', '-l8'], 'cwd': '/workspace/build/sim', 'env': OrderedDict([('HOSTNAME', '72bc75cb98bc'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/install/sim:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/sim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/sim:/opt/ros/humble')]), 'shell': False}
+[0.050722] (sim) CommandEnded: {'returncode': 0}
+[0.052986] (sim) JobProgress: {'identifier': 'sim', 'progress': 'install'}
+[0.068301] (sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/sim'], 'cwd': '/workspace/build/sim', 'env': OrderedDict([('HOSTNAME', '72bc75cb98bc'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/workspace/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/workspace/install/sim:/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/sim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/workspace/install/sim:/opt/ros/humble')]), 'shell': False}
+[0.068955] (sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.069135] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/launch\n'}
+[0.069191] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/launch/view_stub.launch.py\n'}
+[0.069241] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/launch/headless.launch.py\n'}
+[0.069289] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/worlds\n'}
+[0.069340] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/worlds/lunar_gravity_test.world\n'}
+[0.069388] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/urdf\n'}
+[0.069436] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/urdf/transport_rover.urdf\n'}
+[0.069484] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/rviz\n'}
+[0.069531] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/rviz/view_robot.rviz\n'}
+[0.069578] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/ament_index/resource_index/package_run_dependencies/sim\n'}
+[0.069626] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/ament_index/resource_index/parent_prefix_path/sim\n'}
+[0.069674] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/environment/ament_prefix_path.sh\n'}
+[0.069731] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/environment/ament_prefix_path.dsv\n'}
+[0.069824] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/environment/path.sh\n'}
+[0.069871] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/environment/path.dsv\n'}
+[0.069917] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/local_setup.bash\n'}
+[0.069964] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/local_setup.sh\n'}
+[0.070010] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/local_setup.zsh\n'}
+[0.070056] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/local_setup.dsv\n'}
+[0.070102] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/package.dsv\n'}
+[0.070147] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/ament_index/resource_index/packages/sim\n'}
+[0.070191] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/cmake/simConfig.cmake\n'}
+[0.070235] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/cmake/simConfig-version.cmake\n'}
+[0.070279] (sim) StdoutLine: {'line': b'-- Up-to-date: /workspace/install/sim/share/sim/package.xml\n'}
+[0.073730] (sim) CommandEnded: {'returncode': 0}
+[0.086848] (sim) JobEnded: {'identifier': 'sim', 'rc': 0}
+[0.087371] (-) EventReactorShutdown: {}

@@ -1,0 +1,29 @@
+[0.008s] Invoking command in '/workspace/build/sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/build/sim -- -j8 -l8
+[0.046s] Invoked command in '/workspace/build/sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /workspace/build/sim -- -j8 -l8
+[0.060s] Invoking command in '/workspace/build/sim': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/build/sim
+[0.061s] -- Install configuration: ""
+[0.061s] -- Up-to-date: /workspace/install/sim/share/sim/launch
+[0.061s] -- Up-to-date: /workspace/install/sim/share/sim/launch/view_stub.launch.py
+[0.061s] -- Up-to-date: /workspace/install/sim/share/sim/launch/headless.launch.py
+[0.061s] -- Up-to-date: /workspace/install/sim/share/sim/worlds
+[0.061s] -- Installing: /workspace/install/sim/share/sim/worlds/lunar_gravity_test.world
+[0.061s] -- Up-to-date: /workspace/install/sim/share/sim/urdf
+[0.061s] -- Up-to-date: /workspace/install/sim/share/sim/urdf/transport_rover.urdf
+[0.061s] -- Up-to-date: /workspace/install/sim/share/sim/rviz
+[0.061s] -- Up-to-date: /workspace/install/sim/share/sim/rviz/view_robot.rviz
+[0.061s] -- Up-to-date: /workspace/install/sim/share/ament_index/resource_index/package_run_dependencies/sim
+[0.061s] -- Up-to-date: /workspace/install/sim/share/ament_index/resource_index/parent_prefix_path/sim
+[0.061s] -- Up-to-date: /workspace/install/sim/share/sim/environment/ament_prefix_path.sh
+[0.062s] -- Up-to-date: /workspace/install/sim/share/sim/environment/ament_prefix_path.dsv
+[0.062s] -- Up-to-date: /workspace/install/sim/share/sim/environment/path.sh
+[0.062s] -- Up-to-date: /workspace/install/sim/share/sim/environment/path.dsv
+[0.062s] -- Up-to-date: /workspace/install/sim/share/sim/local_setup.bash
+[0.062s] -- Up-to-date: /workspace/install/sim/share/sim/local_setup.sh
+[0.062s] -- Up-to-date: /workspace/install/sim/share/sim/local_setup.zsh
+[0.062s] -- Up-to-date: /workspace/install/sim/share/sim/local_setup.dsv
+[0.062s] -- Installing: /workspace/install/sim/share/sim/package.dsv
+[0.062s] -- Up-to-date: /workspace/install/sim/share/ament_index/resource_index/packages/sim
+[0.062s] -- Up-to-date: /workspace/install/sim/share/sim/cmake/simConfig.cmake
+[0.062s] -- Up-to-date: /workspace/install/sim/share/sim/cmake/simConfig-version.cmake
+[0.062s] -- Up-to-date: /workspace/install/sim/share/sim/package.xml
+[0.066s] Invoked command in '/workspace/build/sim' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /workspace/build/sim

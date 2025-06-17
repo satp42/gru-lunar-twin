@@ -1,0 +1,112 @@
+[0.000000] (-) TimerEvent: {}
+[0.000274] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000314] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000453] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000478] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000544] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000582] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000600] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000620] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000744] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000768] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000785] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000801] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000815] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000828] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000841] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000858] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000871] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000932] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000951] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000968] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000984] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.001000] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.001018] (sim) JobQueued: {'identifier': 'sim', 'dependencies': OrderedDict()}
+[0.001047] (sim) JobStarted: {'identifier': 'sim'}
+[0.007360] (sim) JobProgress: {'identifier': 'sim', 'progress': 'cmake'}
+[0.007501] (sim) Command: {'cmd': ['/usr/bin/cmake', '/workspace/src/sim', '-DCMAKE_INSTALL_PREFIX=/workspace/install/sim'], 'cwd': '/workspace/build/sim', 'env': OrderedDict([('HOSTNAME', '907e95c9bdd5'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/sim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.102141] (-) TimerEvent: {}
+[0.160765] (sim) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.207223] (-) TimerEvent: {}
+[0.307682] (-) TimerEvent: {}
+[0.318701] (sim) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.326226] (sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.369312] (sim) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.375674] (sim) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.375881] (sim) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.376549] (sim) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.379570] (sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.408656] (-) TimerEvent: {}
+[0.430199] (sim) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.435908] (sim) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.436005] (sim) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.436418] (sim) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.438483] (sim) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.510560] (-) TimerEvent: {}
+[0.516039] (sim) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[0.567245] (sim) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.599302] (sim) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.602120] (sim) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.607430] (sim) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.611415] (-) TimerEvent: {}
+[0.616430] (sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.627244] (sim) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.656344] (sim) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.657735] (sim) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.703833] (sim) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.713426] (-) TimerEvent: {}
+[0.719962] (sim) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.742442] (sim) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.747953] (sim) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.795300] (sim) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.795664] (sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.814239] (-) TimerEvent: {}
+[0.839174] (sim) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.840216] (sim) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[0.877854] (sim) StdoutLine: {'line': b'-- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.888054] (sim) StdoutLine: {'line': b'-- Found ros_gz_sim: 0.244.19 (/opt/ros/humble/share/ros_gz_sim/cmake)\n'}
+[0.889511] (sim) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.919345] (-) TimerEvent: {}
+[0.935597] (sim) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.936379] (sim) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.936834] (sim) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.938929] (sim) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.940941] (sim) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.949888] (sim) StdoutLine: {'line': b'-- Generating done\n'}
+[0.954491] (sim) StdoutLine: {'line': b'-- Build files have been written to: /workspace/build/sim\n'}
+[0.959271] (sim) CommandEnded: {'returncode': 0}
+[0.959505] (sim) JobProgress: {'identifier': 'sim', 'progress': 'build'}
+[0.959927] (sim) Command: {'cmd': ['/usr/bin/cmake', '--build', '/workspace/build/sim', '--', '-j8', '-l8'], 'cwd': '/workspace/build/sim', 'env': OrderedDict([('HOSTNAME', '907e95c9bdd5'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/sim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.969072] (sim) StderrLine: {'line': b"gmake: Warning: File 'Makefile' has modification time 0.0027 s in the future\n"}
+[0.979945] (sim) StderrLine: {'line': b'gmake: warning:  Clock skew detected.  Your build may be incomplete.\n'}
+[0.981540] (sim) CommandEnded: {'returncode': 0}
+[0.981817] (sim) JobProgress: {'identifier': 'sim', 'progress': 'install'}
+[0.985807] (sim) Command: {'cmd': ['/usr/bin/cmake', '--install', '/workspace/build/sim'], 'cwd': '/workspace/build/sim', 'env': OrderedDict([('HOSTNAME', '907e95c9bdd5'), ('SHLVL', '0'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/workspace'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/workspace/build/sim'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.991352] (sim) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[0.991526] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/launch\n'}
+[0.991605] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/launch/view_stub.launch.py\n'}
+[0.992016] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/launch/headless.launch.py\n'}
+[0.992367] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/worlds\n'}
+[0.992504] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/worlds/lunar_gravity_test.world\n'}
+[0.993007] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/urdf\n'}
+[0.993176] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/urdf/transport_rover.urdf\n'}
+[0.993741] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/rviz\n'}
+[0.993957] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/rviz/view_robot.rviz\n'}
+[0.995043] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/ament_index/resource_index/package_run_dependencies/sim\n'}
+[0.995511] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/ament_index/resource_index/parent_prefix_path/sim\n'}
+[0.996008] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/environment/ament_prefix_path.sh\n'}
+[0.996398] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/environment/ament_prefix_path.dsv\n'}
+[0.996979] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/environment/path.sh\n'}
+[0.997490] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/environment/path.dsv\n'}
+[0.998013] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/local_setup.bash\n'}
+[0.998350] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/local_setup.sh\n'}
+[0.998753] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/local_setup.zsh\n'}
+[0.999059] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/local_setup.dsv\n'}
+[0.999342] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/package.dsv\n'}
+[0.999799] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/ament_index/resource_index/packages/sim\n'}
+[1.000136] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/cmake/simConfig.cmake\n'}
+[1.000429] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/cmake/simConfig-version.cmake\n'}
+[1.000744] (sim) StdoutLine: {'line': b'-- Installing: /workspace/install/sim/share/sim/package.xml\n'}
+[1.002216] (sim) CommandEnded: {'returncode': 0}
+[1.014230] (sim) JobEnded: {'identifier': 'sim', 'rc': 0}
+[1.014895] (-) EventReactorShutdown: {}

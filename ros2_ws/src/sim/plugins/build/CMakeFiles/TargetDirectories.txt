@@ -1,0 +1,3 @@
+/workspace/src/sim/plugins/build/CMakeFiles/LunarGravityPlugin.dir
+/workspace/src/sim/plugins/build/CMakeFiles/edit_cache.dir
+/workspace/src/sim/plugins/build/CMakeFiles/rebuild_cache.dir
