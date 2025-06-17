@@ -21,6 +21,7 @@ setup(
     entry_points={
         'console_scripts': [
             'fleet_node = fleet_core.fleet_node:main',
+            'power_manager = fleet_core.power_manager:main',
         ],
     },
 ) 
