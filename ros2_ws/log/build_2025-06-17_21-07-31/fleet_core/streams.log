@@ -1,0 +1,37 @@
+[0.344s] Invoking command in '/workspace/src/fleet_core': PYTHONPATH=/workspace/build/fleet_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/fleet_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fleet_core build --build-base /workspace/build/fleet_core/build install --record /workspace/build/fleet_core/install.log --single-version-externally-managed install_data
+[0.442s] running egg_info
+[0.442s] creating ../../build/fleet_core/fleet_core.egg-info
+[0.443s] writing ../../build/fleet_core/fleet_core.egg-info/PKG-INFO
+[0.443s] writing dependency_links to ../../build/fleet_core/fleet_core.egg-info/dependency_links.txt
+[0.443s] writing entry points to ../../build/fleet_core/fleet_core.egg-info/entry_points.txt
+[0.443s] writing requirements to ../../build/fleet_core/fleet_core.egg-info/requires.txt
+[0.443s] writing top-level names to ../../build/fleet_core/fleet_core.egg-info/top_level.txt
+[0.444s] writing manifest file '../../build/fleet_core/fleet_core.egg-info/SOURCES.txt'
+[0.445s] reading manifest file '../../build/fleet_core/fleet_core.egg-info/SOURCES.txt'
+[0.445s] writing manifest file '../../build/fleet_core/fleet_core.egg-info/SOURCES.txt'
+[0.445s] running build
+[0.445s] running build_py
+[0.445s] creating /workspace/build/fleet_core/build
+[0.445s] creating /workspace/build/fleet_core/build/lib
+[0.445s] creating /workspace/build/fleet_core/build/lib/fleet_core
+[0.445s] copying fleet_core/fleet_node.py -> /workspace/build/fleet_core/build/lib/fleet_core
+[0.446s] copying fleet_core/__init__.py -> /workspace/build/fleet_core/build/lib/fleet_core
+[0.446s] running install
+[0.446s] running install_lib
+[0.447s] creating /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core
+[0.447s] copying /workspace/build/fleet_core/build/lib/fleet_core/fleet_node.py -> /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core
+[0.448s] copying /workspace/build/fleet_core/build/lib/fleet_core/__init__.py -> /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core
+[0.448s] byte-compiling /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core/fleet_node.py to fleet_node.cpython-310.pyc
+[0.449s] byte-compiling /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core/__init__.py to __init__.cpython-310.pyc
+[0.449s] running install_data
+[0.449s] creating /workspace/install/fleet_core/share/ament_index
+[0.449s] creating /workspace/install/fleet_core/share/ament_index/resource_index
+[0.450s] creating /workspace/install/fleet_core/share/ament_index/resource_index/packages
+[0.450s] copying resource/fleet_core -> /workspace/install/fleet_core/share/ament_index/resource_index/packages
+[0.450s] copying package.xml -> /workspace/install/fleet_core/share/fleet_core
+[0.450s] running install_egg_info
+[0.451s] Copying ../../build/fleet_core/fleet_core.egg-info to /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core-0.1.0-py3.10.egg-info
+[0.454s] running install_scripts
+[0.465s] Installing fleet_node script to /workspace/install/fleet_core/bin
+[0.466s] writing list of installed files to '/workspace/build/fleet_core/install.log'
+[0.482s] Invoked command in '/workspace/src/fleet_core' returned '0': PYTHONPATH=/workspace/build/fleet_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/fleet_core/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/fleet_core build --build-base /workspace/build/fleet_core/build install --record /workspace/build/fleet_core/install.log --single-version-externally-managed install_data

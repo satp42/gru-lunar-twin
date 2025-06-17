@@ -1,0 +1,70 @@
+[0.000000] (-) TimerEvent: {}
+[0.000152] (-) JobUnselected: {'identifier': 'examples_rclcpp_async_client'}
+[0.000186] (-) JobUnselected: {'identifier': 'examples_rclcpp_cbg_executor'}
+[0.000226] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_client'}
+[0.000242] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_action_server'}
+[0.000261] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_client'}
+[0.000285] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_composition'}
+[0.000300] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_publisher'}
+[0.000315] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_service'}
+[0.000384] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_subscriber'}
+[0.000419] (-) JobUnselected: {'identifier': 'examples_rclcpp_minimal_timer'}
+[0.000438] (-) JobUnselected: {'identifier': 'examples_rclcpp_multithreaded_executor'}
+[0.000453] (-) JobUnselected: {'identifier': 'examples_rclcpp_wait_set'}
+[0.000474] (-) JobUnselected: {'identifier': 'examples_rclpy_executors'}
+[0.000498] (-) JobUnselected: {'identifier': 'examples_rclpy_guard_conditions'}
+[0.000518] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_client'}
+[0.000536] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_action_server'}
+[0.000549] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_client'}
+[0.000564] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_publisher'}
+[0.000578] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_service'}
+[0.000592] (-) JobUnselected: {'identifier': 'examples_rclpy_minimal_subscriber'}
+[0.000606] (-) JobUnselected: {'identifier': 'examples_rclpy_pointcloud_publisher'}
+[0.000619] (-) JobUnselected: {'identifier': 'fleet_msgs'}
+[0.000633] (-) JobUnselected: {'identifier': 'launch_testing_examples'}
+[0.000656] (-) JobUnselected: {'identifier': 'sim'}
+[0.000673] (fleet_core) JobQueued: {'identifier': 'fleet_core', 'dependencies': OrderedDict()}
+[0.000826] (fleet_core) JobStarted: {'identifier': 'fleet_core'}
+[0.102823] (-) TimerEvent: {}
+[0.203486] (-) TimerEvent: {}
+[0.306255] (-) TimerEvent: {}
+[0.342545] (fleet_core) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/fleet_core', 'build', '--build-base', '/workspace/build/fleet_core/build', 'install', '--record', '/workspace/build/fleet_core/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspace/src/fleet_core', 'env': {'HOSTNAME': '0633b79ff375', 'SHLVL': '0', 'LD_LIBRARY_PATH': '/workspace/install/sim/lib:/workspace/install/fleet_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/root', 'OLDPWD': '/workspace', 'ROS_PYTHON_VERSION': '3', 'COLCON_PREFIX_PATH': '/workspace/install', 'ROS_DISTRO': 'humble', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'LANG': 'C.UTF-8', 'AMENT_PREFIX_PATH': '/workspace/install/sim:/workspace/install/fleet_msgs:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'PWD': '/workspace/build/fleet_core', 'LC_ALL': 'C.UTF-8', 'PYTHONPATH': '/workspace/build/fleet_core/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspace/install/fleet_core/lib/python3.10/site-packages:/workspace/install/fleet_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/workspace/install/sim:/workspace/install/fleet_msgs'}, 'shell': False}
+[0.406635] (-) TimerEvent: {}
+[0.442847] (fleet_core) StdoutLine: {'line': b'running egg_info\n'}
+[0.443126] (fleet_core) StdoutLine: {'line': b'creating ../../build/fleet_core/fleet_core.egg-info\n'}
+[0.443335] (fleet_core) StdoutLine: {'line': b'writing ../../build/fleet_core/fleet_core.egg-info/PKG-INFO\n'}
+[0.443728] (fleet_core) StdoutLine: {'line': b'writing dependency_links to ../../build/fleet_core/fleet_core.egg-info/dependency_links.txt\n'}
+[0.443891] (fleet_core) StdoutLine: {'line': b'writing entry points to ../../build/fleet_core/fleet_core.egg-info/entry_points.txt\n'}
+[0.444003] (fleet_core) StdoutLine: {'line': b'writing requirements to ../../build/fleet_core/fleet_core.egg-info/requires.txt\n'}
+[0.444152] (fleet_core) StdoutLine: {'line': b'writing top-level names to ../../build/fleet_core/fleet_core.egg-info/top_level.txt\n'}
+[0.444323] (fleet_core) StdoutLine: {'line': b"writing manifest file '../../build/fleet_core/fleet_core.egg-info/SOURCES.txt'\n"}
+[0.445386] (fleet_core) StdoutLine: {'line': b"reading manifest file '../../build/fleet_core/fleet_core.egg-info/SOURCES.txt'\n"}
+[0.445752] (fleet_core) StdoutLine: {'line': b"writing manifest file '../../build/fleet_core/fleet_core.egg-info/SOURCES.txt'\n"}
+[0.445835] (fleet_core) StdoutLine: {'line': b'running build\n'}
+[0.445886] (fleet_core) StdoutLine: {'line': b'running build_py\n'}
+[0.445973] (fleet_core) StdoutLine: {'line': b'creating /workspace/build/fleet_core/build\n'}
+[0.446046] (fleet_core) StdoutLine: {'line': b'creating /workspace/build/fleet_core/build/lib\n'}
+[0.446110] (fleet_core) StdoutLine: {'line': b'creating /workspace/build/fleet_core/build/lib/fleet_core\n'}
+[0.446229] (fleet_core) StdoutLine: {'line': b'copying fleet_core/fleet_node.py -> /workspace/build/fleet_core/build/lib/fleet_core\n'}
+[0.446646] (fleet_core) StdoutLine: {'line': b'copying fleet_core/__init__.py -> /workspace/build/fleet_core/build/lib/fleet_core\n'}
+[0.446844] (fleet_core) StdoutLine: {'line': b'running install\n'}
+[0.447026] (fleet_core) StdoutLine: {'line': b'running install_lib\n'}
+[0.447990] (fleet_core) StdoutLine: {'line': b'creating /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core\n'}
+[0.448095] (fleet_core) StdoutLine: {'line': b'copying /workspace/build/fleet_core/build/lib/fleet_core/fleet_node.py -> /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core\n'}
+[0.448318] (fleet_core) StdoutLine: {'line': b'copying /workspace/build/fleet_core/build/lib/fleet_core/__init__.py -> /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core\n'}
+[0.448757] (fleet_core) StdoutLine: {'line': b'byte-compiling /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core/fleet_node.py to fleet_node.cpython-310.pyc\n'}
+[0.449788] (fleet_core) StdoutLine: {'line': b'byte-compiling /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core/__init__.py to __init__.cpython-310.pyc\n'}
+[0.450059] (fleet_core) StdoutLine: {'line': b'running install_data\n'}
+[0.450167] (fleet_core) StdoutLine: {'line': b'creating /workspace/install/fleet_core/share/ament_index\n'}
+[0.450241] (fleet_core) StdoutLine: {'line': b'creating /workspace/install/fleet_core/share/ament_index/resource_index\n'}
+[0.450320] (fleet_core) StdoutLine: {'line': b'creating /workspace/install/fleet_core/share/ament_index/resource_index/packages\n'}
+[0.450451] (fleet_core) StdoutLine: {'line': b'copying resource/fleet_core -> /workspace/install/fleet_core/share/ament_index/resource_index/packages\n'}
+[0.450670] (fleet_core) StdoutLine: {'line': b'copying package.xml -> /workspace/install/fleet_core/share/fleet_core\n'}
+[0.450873] (fleet_core) StdoutLine: {'line': b'running install_egg_info\n'}
+[0.452133] (fleet_core) StdoutLine: {'line': b'Copying ../../build/fleet_core/fleet_core.egg-info to /workspace/install/fleet_core/lib/python3.10/site-packages/fleet_core-0.1.0-py3.10.egg-info\n'}
+[0.454676] (fleet_core) StdoutLine: {'line': b'running install_scripts\n'}
+[0.465573] (fleet_core) StdoutLine: {'line': b'Installing fleet_node script to /workspace/install/fleet_core/bin\n'}
+[0.466608] (fleet_core) StdoutLine: {'line': b"writing list of installed files to '/workspace/build/fleet_core/install.log'\n"}
+[0.482920] (fleet_core) CommandEnded: {'returncode': 0}
+[0.493149] (fleet_core) JobEnded: {'identifier': 'fleet_core', 'rc': 0}
+[0.493632] (-) EventReactorShutdown: {}

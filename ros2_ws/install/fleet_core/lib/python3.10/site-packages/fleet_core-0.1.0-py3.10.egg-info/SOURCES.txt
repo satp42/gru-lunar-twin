@@ -1,0 +1,12 @@
+package.xml
+setup.py
+../../build/fleet_core/fleet_core.egg-info/PKG-INFO
+../../build/fleet_core/fleet_core.egg-info/SOURCES.txt
+../../build/fleet_core/fleet_core.egg-info/dependency_links.txt
+../../build/fleet_core/fleet_core.egg-info/entry_points.txt
+../../build/fleet_core/fleet_core.egg-info/requires.txt
+../../build/fleet_core/fleet_core.egg-info/top_level.txt
+../../build/fleet_core/fleet_core.egg-info/zip-safe
+fleet_core/__init__.py
+fleet_core/fleet_node.py
+resource/fleet_core

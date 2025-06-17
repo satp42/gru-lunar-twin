@@ -1,0 +1,3 @@
+[console_scripts]
+fleet_node = fleet_core.fleet_node:main
+
