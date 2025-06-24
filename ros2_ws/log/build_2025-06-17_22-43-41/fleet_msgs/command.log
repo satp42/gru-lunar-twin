@@ -1,0 +1,2 @@
+Invoking command in '/workspace/ros2_ws/build/fleet_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/fleet_msgs -- -j8 -l8
+Invoked command in '/workspace/ros2_ws/build/fleet_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/fleet_msgs -- -j8 -l8

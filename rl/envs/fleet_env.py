@@ -28,6 +28,8 @@ class FleetEnv(gym.Env):
         self.excavator_pos = np.array([10.0, 10.0], dtype=np.float32) 
         self.excavator_battery = 100.0
         self.excavated_kg = 0.0
+        self.steps_idle = 0
+        self.prev_excavated_kg = 0.0
 
     def reset(self, seed=None, options=None):
         super().reset(seed=seed)
@@ -43,6 +45,9 @@ class FleetEnv(gym.Env):
         return observation, info
 
     def step(self, action):
+        # Track previous kg for excavation progress
+        self.prev_excavated_kg = self.excavated_kg
+        
         # Simple action mapping for testing
         if action == 1:  # north
             self.rover_pos[1] += 1.0
@@ -53,21 +58,52 @@ class FleetEnv(gym.Env):
         elif action == 4:  # west
             self.rover_pos[0] -= 1.0
         
-        # Consume battery
-        self.rover_battery = max(0.0, self.rover_battery - 0.1)
+        # Consume battery and simulate excavation
+        if action != 0:  # Moving
+            self.rover_battery = max(0.0, self.rover_battery - 0.1)
+            self.steps_idle = 0
+            # Simulate excavation progress when moving (coordinated fleet)
+            if self.excavator_battery > 10.0:
+                self.excavated_kg += 0.5  # kg per step when coordinated
+                self.excavator_battery = max(0.0, self.excavator_battery - 0.2)
+        else:  # Idle
+            self.steps_idle += 1
+            # Idle excavator loses opportunity
+            
+        # Task 27: Reward shaping for fleet coordination
+        reward = 0.0
         
-        # Basic reward: penalty for battery drain
-        reward = -0.1 if action != 0 else 0.0
-        
+        # Positive rewards for excavation progress
+        kg_gained = self.excavated_kg - self.prev_excavated_kg
+        if kg_gained > 0:
+            reward += kg_gained * 2.0  # +1.0 reward for 0.5 kg progress
+            
+        # Penalty for idle excavator (24/7 operation target)
+        if action == 0:
+            idle_penalty = -0.5 * (1 + self.steps_idle * 0.1)  # Increasing penalty
+            reward += idle_penalty
+            
+        # Small movement cost to balance
+        if action != 0:
+            reward -= 0.05  # Reduced from -0.1
+            
+        # Battery efficiency bonus
+        if self.rover_battery > 50.0 and action != 0:
+            reward += 0.1  # Encourage early activity
+            
         observation = np.array([
             self.rover_pos[0], self.rover_pos[1], self.rover_battery,
             self.excavator_pos[0], self.excavator_pos[1], self.excavator_battery,
             self.excavated_kg
         ], dtype=np.float32)
         
-        terminated = self.rover_battery <= 0.0
+        terminated = self.rover_battery <= 0.0 or self.excavator_battery <= 0.0
         truncated = False
-        info = {}
+        info = {
+            'kg_gained': kg_gained,
+            'idle_steps': self.steps_idle,
+            'excavator_active': kg_gained > 0
+        }
         
         return observation, reward, terminated, truncated, info
 

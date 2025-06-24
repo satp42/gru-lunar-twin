@@ -1,0 +1,6 @@
+[0.484s] Invoking command in '/workspace/ros2_ws/build/fleet_msgs': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/fleet_msgs -- -j8 -l8
+[0.639s] CMake Error: The current CMakeCache.txt directory /workspace/ros2_ws/build/fleet_msgs/CMakeCache.txt is different than the directory /workspace/build/fleet_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+[0.788s] CMake Error: The source directory "/workspace/src/fleet_msgs" does not exist.
+[0.789s] Specify --help for usage, or press the help button on the CMake GUI.
+[0.797s] gmake: *** [Makefile:963: cmake_check_build_system] Error 1
+[0.809s] Invoked command in '/workspace/ros2_ws/build/fleet_msgs' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /workspace/ros2_ws/build/fleet_msgs -- -j8 -l8

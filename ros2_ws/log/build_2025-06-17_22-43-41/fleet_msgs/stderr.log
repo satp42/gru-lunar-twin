@@ -1,0 +1,4 @@
+CMake Error: The current CMakeCache.txt directory /workspace/ros2_ws/build/fleet_msgs/CMakeCache.txt is different than the directory /workspace/build/fleet_msgs where CMakeCache.txt was created. This may result in binaries being created in the wrong place. If you are not sure, reedit the CMakeCache.txt
+CMake Error: The source directory "/workspace/src/fleet_msgs" does not exist.
+Specify --help for usage, or press the help button on the CMake GUI.
+gmake: *** [Makefile:963: cmake_check_build_system] Error 1
