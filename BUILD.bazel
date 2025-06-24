@@ -1,0 +1,14 @@
+filegroup(
+    name = "workspace_files",
+    srcs = [
+        "WORKSPACE",
+        ".bazelversion",
+    ],
+    visibility = ["//visibility:public"],
+)
+
+py_test(
+    name = "sanity",
+    srcs = ["sanity_test.py"],
+    main = "sanity_test.py",
+) 
