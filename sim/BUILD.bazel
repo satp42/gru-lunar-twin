@@ -1,0 +1,47 @@
+genrule(
+    name = "gravity_scale_plugin",
+    srcs = [
+        "plugins/gravity_scale_plugin.cpp",
+        "plugins/CMakeLists.txt",
+    ],
+    outs = ["libgravity_scale_plugin.so"],
+    cmd = """
+        cd sim/plugins && \
+        mkdir -p build && \
+        cd build && \
+        cmake .. && \
+        make && \
+        if [ -f libgravity_scale_plugin.dylib ]; then \
+            cp libgravity_scale_plugin.dylib ../../../$(location libgravity_scale_plugin.so); \
+        else \
+            cp libgravity_scale_plugin.so ../../../$(location libgravity_scale_plugin.so); \
+        fi
+    """,
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "world_files",
+    srcs = [
+        "worlds/south_pole.world",
+    ],
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "launch_files", 
+    srcs = [
+        "launch/south_pole.launch.py",
+    ],
+    visibility = ["//visibility:public"],
+)
+
+filegroup(
+    name = "world_assets",
+    srcs = [
+        ":gravity_scale_plugin",
+        ":world_files",
+        ":launch_files",
+    ],
+    visibility = ["//visibility:public"],
+) 
